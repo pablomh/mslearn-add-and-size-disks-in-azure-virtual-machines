@@ -8,7 +8,7 @@ sudo umount /dev/sdc1
 sudo parted /dev/sdc <<EOF
 resizepart
 1
-128GB
+100%
 quit
 EOF
 
